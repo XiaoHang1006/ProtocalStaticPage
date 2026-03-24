@@ -26,12 +26,23 @@
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
+        /* 大标题样式 */
+        .main-title {
+            text-align: center;
+            color: var(--primary-blue);
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px double var(--primary-blue);
+        }
         /* 头部日期样式 */
         .publish-date {
-            font-size: 15px; /* 对应 size=30 视觉效果 */
+            font-size: 14px;
             color: var(--light-gray);
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             display: block;
+            text-align: center; /* 日期居中显示更协调 */
         }
         /* 引言与重要提示 */
         .intro-box {
@@ -49,7 +60,7 @@
         }
         /* 章节标题样式 */
         h2 {
-            font-size: 18px; /* 对应 size=36 视觉效果 */
+            font-size: 18px;
             color: var(--primary-blue);
             border-bottom: 2px solid #E9ECEF;
             padding-bottom: 8px;
@@ -65,7 +76,7 @@
             background-color: #F0F7FF;
             padding: 20px;
             border-radius: 8px;
-            margin-top: 30px;
+            margin-top: 40px;
             border: 1px solid #DDEBFF;
         }
         .contact-link {
@@ -77,6 +88,7 @@
         @media (max-width: 600px) {
             body { padding: 10px; }
             .container { padding: 25px 20px; }
+            .main-title { font-size: 20px; }
             h2 { font-size: 17px; }
         }
     </style>
@@ -84,6 +96,8 @@
 <body>
 
 <div class="container">
+    <h1 class="main-title">《Aphasia Pro失语症训练软件》隐私政策</h1>
+    
     <span class="publish-date">版本发布日期：2026年03月17日</span>
 
     <div class="intro-box">
